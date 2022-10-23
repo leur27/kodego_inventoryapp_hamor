@@ -14,11 +14,18 @@
         android:theme="@style/Theme.InventoryManagementApp"
         tools:targetApi="31">
         <activity
-            android:name=".HomeActivity"
+            android:name=".ProductDetailActivity"
             android:exported="false" />
         <activity
+            android:name=".LoginV2"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" >
+        </activity>
+        <activity
             android:name=".TestActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".SplashActivity"
             android:exported="true">
